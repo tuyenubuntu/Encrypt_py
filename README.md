@@ -27,7 +27,7 @@ pip install pyqt5 pycryptodome
 To run the application, use the following command:
 
 ```bash
-python main.py
+python app.py
 ```
 
 ## How to Build an Executable (Windows)
@@ -43,7 +43,7 @@ pip install pyinstaller
 ### Build the Executable
 
 ```bash
-pyinstaller --onefile --noconsole --icon=shortcut/key.ico main.py
+pyinstaller --onefile --noconsole --icon=shortcut/key.ico py.py
 ```
 
 - `--onefile`: Creates a single executable file
