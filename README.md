@@ -30,7 +30,20 @@ To run the application, use the following command:
 python app.py
 ```
 
-## How to Build an Executable (Windows)
+Using Pre-built Executable
+
+If you don't want to install Python, you can use the pre-built executable located in the dist folder.
+
+Steps:
+
+Open the `dist` folder.
+
+Run file_encryptor.exe.
+
+Follow the on-screen instructions to encrypt or decrypt files.
+
+
+## How to Build an Executable (Optional)
 
 To create an executable file (.exe) without a console window and with a custom icon, use **PyInstaller**:
 
