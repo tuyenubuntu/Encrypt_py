@@ -2,26 +2,26 @@ from PIL import Image
 
 def convert_to_ico(input_image, output_image):
     """
-    Chuyển đổi hình ảnh sang định dạng ICO.
+    Convert an image to ICO format.
 
     Args:
-        input_image (str): Đường dẫn đến hình ảnh đầu vào (JPG hoặc PNG).
-        output_image (str): Đường dẫn đến hình ảnh đầu ra (ICO).
+        input_image (str): Path to the input image (JPG or PNG).
+        output_image (str): Path to the output image (ICO).
     """
 
     try:
-        # Mở hình ảnh
+        # Open the image
         img = Image.open(input_image)
 
-        # Chuyển đổi sang định dạng ICO
+        # Convert to ICO format
         img.save(output_image, format="ICO", sizes=[(32, 32)])
 
-        print(f"Đã chuyển đổi {input_image} thành {output_image} thành công!")
+        print(f"Successfully converted {input_image} to {output_image}!")
     except Exception as e:
-        print(f"Lỗi trong quá trình chuyển đổi: {e}")
+        print(f"Error during conversion: {e}")
 
 if __name__ == "__main__":
-    input_file = "shortcut/key.png"  
+    input_file = "key.png"  
     
     output_file = "key.ico"  
     
