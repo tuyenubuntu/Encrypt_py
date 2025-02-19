@@ -19,7 +19,7 @@ This is a Python-based GUI application for encrypting and decrypting files using
 Make sure you have the following dependencies installed:
 
 ```bash
-pip install pyqt5 pycryptodome
+pip install pyqt5 pycryptodome psutil
 ```
 
 ## How to Run
