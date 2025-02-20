@@ -2,3 +2,4 @@ backup/*.txt
 dist/backup/*.txt
 *.pdf
 *.enc
+*.spec
